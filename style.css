@@ -1,0 +1,56 @@
+/* Общие стили для body */
+body {
+    font-size: 18px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для заголовка h1 */
+h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Стили для заголовка h2 (основной подзаголовок) */
+h2 {
+    margin-top: 0;
+    padding-bottom: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Стили для секций */
+section {
+    margin: 50px 0;
+    padding: 0 50px;
+}
+
+/* Стили для заголовков внутри секций */
+section h2 {
+    padding: 0;
+    text-align: left;
+    border: none;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Стили для элементов списка */
+li {
+    margin-bottom: 10px;
+}
+
+/* Дополнительные стили для улучшения внешнего вида */
+ul {
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+section:last-of-type {
+    margin-bottom: 50px;
+}
